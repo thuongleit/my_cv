@@ -1,0 +1,244 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\vspace{3pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Thuong Le} & {Jyväskylä, Finland} \\
+    \href{https://www.linkedin.com/in/thuongleit}{https://linkedin.com/in/thuongleit} & \href{mailto:thuongle.it@gmail.com}{thuongle.it@gmail.com}\\
+    \href{https://github.com/thuongleit}{https://github.com/thuongleit} & \href{tel:+xxxxxxxxxxxx}{+xxx-xxxxxxxxx} \\
+\end{tabular*}
+
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{http://web.lyncpix.com/en}{Lyncpix}}{}
+      {Android Developer}{Apr 2020 - Present}
+      \resumeItemListStart
+        % \resumeItem{\href{http://web.lyncpix.com/en}{Lyncpix}}
+          {Lyncpix provides Cloud Collaboration Platform and Online Galleries for photographers. \\
+          My responsibilities:  Developed new features, maintained the Android application. \\
+          Tech skills: Native Android, Java, Kotlin.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://delivered.im}{Delivered}}{}
+      {Android Developer}{Apr 2018 - Apr 2020}
+      \resumeItemListStart
+        % \resumeItem{Delivered Messaging SDK}
+          {Our company provides the Delivered Messaging SDK: a messaging SDK, and fully-hosted cloud service, providing a complete social messaging solution for app developers and businesses. \\
+            My responsibilities:  Developed new features, implemented the core and UI, maintained the SDK.\\
+            Tech skills: Java, Kotlin, Android Jetpack, Clean Architecture, Content Provider, SQLite, Kanban.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://jongla.com}{Jongla}}{Helsinki, Finland}
+      {Android Developer}{Jan 2017 - Apr 2018}
+      \resumeItemListStart
+        % \resumeItem{Jongla Social Messenger}
+          {Our company provides Jongla Social Messenger, a cross-platform application to offer free messaging and give people better tools to express themselves beyond just text, by offering an easy-to-use app for sharing unlimited text, high-quality photos, and videos. \\
+          My responsibilities:  Developed new features, implemented the UI, maintained Jongla Messaging - Android app.\\
+          Tech skills: Java, Kotlin, Content Provider, Service, SQLite, RxJava, Dagger, Lean Software Development.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.upwork.com}{Upwork}}{}
+      {Software Developer - Consultant}{Jun 2015 - Jan 2017}
+      \resumeItemListStart
+      {I worked directly with the co-founders of some startups companies as a software developer and consultant to develop Android apps. We successfully built and launched several mobile products together.}
+        \resumeItem{\href{http://paidup.io}{PaidUp (https://paidup.io)}}
+          {PaidUp is a mobile phone app that allows small and medium-sized businesses to gain more customers and revenue by strengthening the trust they have with their top fans - who can now invest in their favourite stores in return for special discounts and offers. PaidUp got over 100 stores registered in Dec 2016.}
+        \resumeItem{\href{https://astrnt.co}{Astronaut Q\&A (https://astrnt.co)}}
+          {Astronaut Q\&A is a video-selfie interview platform. It allows recruitment teams to get to know candidates faster via candidates’ video-selfies, and give them more insight into the organization. As a candidate, using your unique interview code, you can do the interview whenever you want. \\
+          My responsibilities:  Android team lead - developed and maintained the first version of Android application for these companies.\\
+          Tech skills: Native Android, Java, Kotlin, MVVM, Android Data Binding, RxJava, Retrofit2, Dagger2.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.tmasolutions.com}{TMA Solutions}}{}
+      {Java Developer}{Jun 2012 - Jun 2015}
+      \resumeItemListStart
+        % \resumeItem{\href{https://networks.nokia.com/products/5520-access-management-system}{5520 - AMS}}
+        %   {The Nokia 5520 Access Management System (AMS) delivers a complete element management solution for the Nokia Intelligent Services Access Manager (ISAM) family of DSL and fiber-based broadband access products.}
+        % \resumeItem{\href{https://networks.nokia.com/products/5529-access-provisioning-center}{5529 - APC}}
+          {Our company provided outsourcing for Alcatel-Lucent firm to develop and maintain the 5529 APC, a part of the 5520 AMS product - the industry’s leading network element manager.\\
+          My team handled over 130k lines of Java code. JUnitTest was always covered by over 70\%. \\
+          We maintained over 10 products, developed new features, and delivered 6 releases successfully. \\
+          % My responsibilities: Joined in APC team, developed and maintained features for the APC product. \\
+          Tech stacks: J2EE, JBOSS, Maven, Design Pattern, SVN, Atlassian solutions (JIRA, Bamboo).}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://en.uit.edu.vn}{University of Information Technology}}{Vietnam}
+      {Bachelor of Engineering - Very Good Degree}{Aug. 2008 -- Dec. 2012}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{\href{https://github.com/thuongleit/hackernews}{hackernews}}
+%       {It is just another Hacker News app where I practice my skills with the newest things.}
+%     \resumeSubItem{\href{https://github.com/thuongleit/.dotfiles}{.dotfiles}}
+%       {The script provides a simple stupid automated tool to auto-configure/update your Mac environment from CLI.}
+%   \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Technologies}{: Java, Kotlin, Dart, Android, Flutter, Git, Rx, Dagger2}
+    }
+  \resumeSubHeadingListEnd
+
+
+%--------REFERENCES------------
+\section{References}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.linkedin.com/in/rpriha}{Rauli Priha (CTO \& Founder, Delivered Oy)}}{}
+      {Rauli managed Thuong directly}{}
+      \resumeItemListStart
+      {It has been a pleasure to work with Thuong. He's a resourceful developer who knows Android platform by heart, and has an interest in working with many different kinds of technologies. He's been consistently surpassing the expectations, always producing well designed quality code and delivering in time.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.linkedin.com/in/manfredekblad}{Manfred Ekblad (CTO, Astronaut Q\&A)}}{}
+      {Manfred was a client of Thuong’s}{}
+      \resumeItemListStart
+      {Thuong worked with me on several projects and proved to be a very valuable team member. His skills in native Android programming helped us to launch two complex apps on schedule and with good quality.\\
+      I love that Thuong is the kind of person who does not only try to implement a good solution as fast as possible, but he also explores alternative solutions and technology and while working with me and my team he shared very valuable knowledge with all of us.\\
+      He certainly did go the extra mile to do his best for the team and it was very easy to communicate with Thuong.\\
+      I definitely hope to work together with Thuong again in the future on new exciting projects.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.linkedin.com/in/afra-khan-73aa3a27}{Afra Khan (CEO \& Co-founder, PaidUp)}}{}
+      {Afra was a client of Thuong’s}{}
+      \resumeItemListStart
+      {Thuong was a pleasure to work with. He always tried his best to go above and beyond what was needed and really cared about delivering the best product possible. Highly recommend Thuong for his Android skills in particular.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.linkedin.com/in/the-dong-pham-thanh-12433559}{The Dong Pham Thanh (Delivery Director, TMA Solutions)}}{}
+      {The managed Thuong directly}{}
+      \resumeItemListStart
+      {Thuong Le is really a developer that you wish to have in your team, and a team member that you can trust to work together. He is a fast learner, good team player, and very well dedicated on any tasks assigned. I highly appreciate for good works he has been delivering so far.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%--------PUBLISHED APPS------------
+\section{Apps published/maintained through Google Play}
+  \resumeSubHeadingListStart
+    \item{
+        \textbf{\href{https://play.google.com/store/apps/details?id=vifi.services.hknews}{HKNews}}{: Just another hacker news client, written in Flutter.}
+    }
+    \item{
+        \textbf{\href{https://play.google.com/store/apps/details?id=im.delivered.showcase.bobcat}{Delivered Showcase App}}{: Sample app showcasing the Delivered Messaging SDK features.}
+    }
+    \item{
+        \textbf{\href{https://play.google.com/store/apps/developer?id=LyncPix}{LyncPix}}{: Media Collaboration Platform for Professional Photography.}
+    }
+    \item{
+        \textbf{\href{https://play.google.com/store/apps/details?id=ph.paidup}{PaidUp}}{: Get great deals every day.}
+    }
+    \item{
+        \textbf{\href{https://play.google.com/store/apps/details?id=co.astrnt.android}{Astronaut Q\&A}}{: Skip your CV now.}
+    }
+    \item{
+        \textbf{\href{https://play.google.com/store/apps/details?id=com.tunedoorinc.tunedoor}{TuneDoor}}{: A tool for musicians.}
+    }
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%--------CERTIFICATES------------
+\section{Certificates}
+  \resumeSubHeadingListStart
+    \item{
+            \textbf{\href{https://www.udemy.com/certificate/UC-4000485f-482e-4c76-bf3d-c19154f4adeb/}{Udemy}}{:  41.5 total hours of \textbf{\href{https://www.udemy.com/certificate/UC-4000485f-482e-4c76-bf3d-c19154f4adeb/}{Flutter \& Dart - The Complete Guide [2020 Edition]}}.}
+        }
+    \item{
+            \textbf{\href{https://www.udemy.com/certificate/UC-4876099e-cc3e-489b-9dd4-7c16a978cd56/}{Udemy}}{:  28.0 total hours of \textbf{\href{https://www.udemy.com/certificate/UC-4876099e-cc3e-489b-9dd4-7c16a978cd56/}{The Complete 2020 Flutter Development Bootcamp with Dart}}.}
+        }
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
